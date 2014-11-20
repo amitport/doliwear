@@ -11,7 +11,7 @@ var DogActivity = new Schema({
 var DogSchema = new Schema({
   name: String,
   color: String,
-  race: String,
+  breed: String,
   activity: [DogActivity]
 });
 

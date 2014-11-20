@@ -3,7 +3,7 @@
 /**
  * Removes server error when user updates input
  */
-angular.module('dogsitterApp')
+angular.module('doliwearApp')
   .directive('mongooseError', function () {
     return {
       restrict: 'A',

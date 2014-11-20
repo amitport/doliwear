@@ -13,20 +13,24 @@ Dog.find({}).remove(function() {
   Dog.create({
     name  : 'Angie',
     color : 'White',
-    race  : 'Canaan',
+    breed  : 'Canaan',
     activity: [{
       level: 30
     }, {
       level: 60
+    }, {
+      level: 76
+    }, {
+      level: 86
     }]
   }, {
     name : 'Lula',
     color : 'Black',
-    race : 'Labrador'
+    breed : 'Labrador'
   }, {
     name  : 'Balfur',
     color : 'Brown',
-    race  : 'Shar Pei'
+    breed  : 'Shar Pei'
   });
 });
 

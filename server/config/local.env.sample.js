@@ -7,7 +7,7 @@
 
 module.exports = {
   DOMAIN:           'http://localhost:9000',
-  SESSION_SECRET:   'dogsitter-secret',
+  SESSION_SECRET:   'doliwear-secret',
 
   FACEBOOK_ID:      'app-id',
   FACEBOOK_SECRET:  'secret',

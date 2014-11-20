@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dogsitterApp')
+angular.module('doliwearApp')
   .controller('SignupCtrl', function ($scope, Auth, $location, $window) {
     $scope.user = {};
     $scope.errors = {};

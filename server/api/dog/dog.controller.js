@@ -20,12 +20,12 @@ exports.index = function(req, res) {
   });
 };
 
-// Get a single dog
+// Get a single dog //TODO use ID not name...
 exports.show = function(req, res) {
-  Dog.findById(req.params.id, function (err, dog) {
+  Dog.find({name: req.params.id}, function (err, dog) {
     if(err) { return handleError(res, err); }
-    if(!dog) { return res.send(404); }
-    return res.json(dog);
+    if(!dog || dog.length === 0) { return res.send(404); }
+    return res.json(dog[0]);
   });
 };
 

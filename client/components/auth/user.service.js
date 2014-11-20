@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dogsitterApp')
+angular.module('doliwearApp')
   .factory('User', function ($resource) {
     return $resource('/api/users/:id/:controller', {
       id: '@_id'

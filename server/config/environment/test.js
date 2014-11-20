@@ -5,6 +5,6 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://localhost/dogsitter-test'
+    uri: 'mongodb://localhost/doliwear-test'
   }
 };

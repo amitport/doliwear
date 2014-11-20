@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('dogsitterApp')
+angular.module('doliwearApp')
   .config(function ($routeProvider) {
     $routeProvider
       .when('/login', {
